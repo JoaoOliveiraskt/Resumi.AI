@@ -67,11 +67,11 @@
 /* Tailwind Styles */
 
 .app {
-  @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+  @apply relative z-0 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
 
 .black_btn {
-  @apply rounded-md border border-gray-700 bg-gray-800 py-2 px-4 text-base text-white transition-all hover:bg-gray-700 hover:border-gray-600;
+  @apply rounded-md border border-gray-700 bg-[#27292d7f] py-2 px-4 text-base text-white transition-all hover:bg-gray-800 hover:border-gray-600;
 }
 
 .head_text {
@@ -92,12 +92,12 @@
 }
 
 .url_input {
-  @apply block w-full rounded-md border border-gray-200 bg-[#050708] py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi font-medium text-white focus:border-[#A0AEC0] focus:outline-none focus:ring-1 focus:ring-[#A0AEC0] dark:bg-gray-900 dark:text-white dark:border-gray-600 dark:focus:ring-[#A0AEC0];
+  @apply block w-full rounded-md border border-gray-200 bg-[#050708] py-2.5 pl-10 pr-12 text-sm shadow-lg font-satoshi font-medium text-white focus:border-zinc-500 focus:outline-none  focus:ring-[#A0AEC0] dark:bg-gray-900 dark:text-white dark:border-gray-600 dark:focus:ring-[#A0AEC0];
 }
 
 
 .submit_btn {
-  @apply hover:border-gray-700 hover:text-gray-700 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-700 font-sans text-sm font-medium text-gray-700;
+  @apply hover:border-gray-600 hover:text-gray-600 hover:bg-slate-800 absolute inset-y-0 right-0 my-1.5 mr-1.5 flex w-10 items-center justify-center rounded border border-gray-700 font-sans text-sm font-medium text-gray-700;
 }
 
 .link_card {
@@ -124,10 +124,26 @@
 }
 
 .summary_box {
-  @apply
-    rounded-lg
-    backdrop-blur
-    p-4
-    tracking-wide
-    bg-[#999db435];  /* Cor de fundo com transparência */
+  @apply rounded-xl bg-[#27292d52]  p-4 border border-zinc-800;
+  max-height: 70vh; 
+  overflow-y: auto; 
+  scrollbar-width: thin; 
+  
+}
+
+.summary_box::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+/* Estilização do polegar (thumb) da barra de rolagem */
+.summary_box::-webkit-scrollbar-thumb {
+  background-color: #888; /* Cor do polegar da barra de rolagem */
+  border-radius: 6px;
+}
+
+/* Quando o mouse estiver sobre o elemento .summary_box */
+.summary_box:hover::-webkit-scrollbar {
+  width: 12px;
+  background-color: rgba(0, 0, 0, 0.3); /* Cor de fundo da barra de rolagem */
 }
