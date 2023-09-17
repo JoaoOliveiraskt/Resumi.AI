@@ -1,6 +1,6 @@
 # Resumi.AI
 
-O Resumi.AI é um sistema versátil projetado para extrair e resumir o conteúdo de qualquer página da web. Basta inserir a URL da página e o sistema eficientemente extrairá e apresentará um resumo do conteúdo. O projeto é construído com React.js usando Vite. O TailwindCSS é utilizado para criar uma interface responsiva e atraente. A API Article Extractor and Summarizer é integrada para fornecer essa funcionalidade.
+O Resumi.AI é um sistema projetado para extrair e resumir o conteúdo de qualquer página da web. Basta inserir a URL da página e o sistema eficientemente extrairá e apresentará um resumo do conteúdo. O projeto é construído com React.js usando Vite. O TailwindCSS é utilizado para criar uma interface responsiva e atraente. A API Article Extractor and Summarizer é integrada para fornecer essa funcionalidade.
 
 ## Como Começar
 
