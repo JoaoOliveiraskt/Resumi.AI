@@ -1,7 +1,7 @@
 ```markdown
 # Resumi.AI
 
-O Resumi.AI é um sistema versátil projetado para extrair e resumir o conteúdo de qualquer página da web. Basta inserir a URL da página e o sistema eficientemente extrairá e apresentará um resumo do conteúdo. O projeto é construído com React.js usando Vite para um ambiente de desenvolvimento ágil. O TailwindCSS é utilizado para criar uma interface de ux/ui responsiva e atraente. A API Article Extractor and Summarizer é integrada para fornecer essa funcionalidade.
+O Resumi.AI é um sistema versátil projetado para extrair e resumir o conteúdo de qualquer página da web. Basta inserir a URL da página e o sistema eficientemente extrairá e apresentará um resumo do conteúdo. O projeto é construído com React.js usando Vite. O TailwindCSS é utilizado para criar uma interface responsiva e atraente. A API Article Extractor and Summarizer é integrada para fornecer essa funcionalidade.
 
 ## Como Começar
 
@@ -16,7 +16,7 @@ Estas instruções irão guiá-lo sobre como iniciar o projeto em sua máquina l
 
 ### Pré-requisitos
 
-Instale o Node.js e npm:
+Antes de começar, certifique-se de ter o Node.js e o npm instalados no seu sistema.
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
@@ -38,6 +38,12 @@ npm install
 
 ## Executando a Aplicação
 
+Para iniciar a aplicação localmente:
+
 ```bash
 npm run dev
 ```
+
+A aplicação estará disponível em [http://localhost:3000](http://localhost:3000).
+
+---
