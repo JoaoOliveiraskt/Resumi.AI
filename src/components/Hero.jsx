@@ -20,9 +20,9 @@ const Hero = () => {
         <span className="sunset_gradient">OpenAI GPT-4</span>
       </h1>
       <h2 className="desc tracking-wider">
-        Transforme páginas longas em breves insights com o Resume.AI. Nosso
+        Transforme páginas longas em breves insights com o Resumi.AI. Nosso
         assistente virtual de resumos simplifica qualquer texto, basta fornecer
-        a URL e deixar o Resume.AI fazer o trabalho pesado.
+        a URL e deixar o Resumi.AI fazer o trabalho pesado.
       </h2>
     </header>
   );
